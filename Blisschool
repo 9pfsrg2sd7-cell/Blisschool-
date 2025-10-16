@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blisschool — Школа танцев</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(180deg, #0b1c2c, #1e3d5a);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      font-family: "Inter", Arial, sans-serif;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: #4ec9ff;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      max-width: 600px;
+    }
+    .highlight { color: #ffd54f; font-weight: 700; }
+    .whatsapp {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #25d366;
+      color: #fff;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Школа танцев <span class="highlight">Blisschool</span></h1>
+  <p><strong>Запись на бесплатное пробное занятие!</strong></p>
+  <p>Мы ищем таланты, чтобы вывести их на профессиональный уровень и сделать мастеров, как наши тренеры.</p>
+  <p>Брейкинг — олимпийский вид спорта!</p>
+  <a href="https://wa.me/79117491077" class="whatsapp" target="_blank">Написать в WhatsApp</a>
+  <div class="footer">
+    <p>Сайт находится в разработке и скоро будет дополнен 🛠️</p>
+  </div>
+</body>
+</html>
